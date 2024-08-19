@@ -32,6 +32,4 @@ bun run dev
 
 To update the marquee, icon tag cloud, home links, or porfolio projects go to the `src/lib/data` folder. 
 
-### Styling
-
 
