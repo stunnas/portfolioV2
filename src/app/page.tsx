@@ -19,7 +19,6 @@ export default function Home() {
 					<IconCloud
 						iconSlugs={slugs}
 						className='w-full scale-90'
-						
 					/>
 				</div>
 			</AnimatedGradientText>
@@ -51,7 +50,7 @@ export default function Home() {
 					target='_blank'
 					href='https://github.com/stunnas/portfolioV2'
 				>
-					this website's repo
+					this website&apos;s repo
 				</a>{' '}
 				or even the{' '}
 				<a
