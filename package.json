@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-starter-template",
+  "name": "caa-v2",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -10,15 +10,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "@icons-pack/react-simple-icons": "^9.4.1",
     "@radix-ui/react-aspect-ratio": "^1.0.3",
+    "@radix-ui/react-popover": "^1.1.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-switch": "^1.1.0",
+    "@radix-ui/react-tabs": "^1.1.0",
+    "@tabler/icons-react": "^3.11.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "color-thief-browser": "^2.0.2",
+    "framer-motion": "^11.2.13",
+    "gsap": "^3.12.5",
     "lucide-react": "^0.378.0",
     "next": "14.2.3",
-    "next-themes": "^0.3.0",
+    "prettierrc": "^0.0.0-5",
     "react": "^18",
     "react-dom": "^18",
+    "react-icon-cloud": "^4.1.4",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -30,8 +40,8 @@
     "eslint-config-next": "14.2.3",
     "eslint-config-prettier": "^9.1.0",
     "postcss": "^8",
-    "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.14",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

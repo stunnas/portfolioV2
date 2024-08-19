@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Tryon_Solutions" data-name="Tryon Solutions" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 397.03 57.35">
+  <g id="Arrows">
+    <g id="Bottom_Arrow" data-name="Bottom Arrow">
+      <polygon points="56.13 37.76 66.5 18.3 78.24 37 66.98 56 56.13 37.76" style="fill: #68a03b; stroke-width: 0px;"/>
+      <polygon points="56.13 37.76 34.08 38.32 45.69 57.09 66.98 56 56.13 37.76" style="fill: #0b8849; stroke-width: 0px;"/>
+    </g>
+    <g id="Top_Arrow" data-name="Top Arrow">
+      <polygon points="22.05 19.46 32.42 0 44.16 18.7 32.9 37.69 22.05 19.46" style="fill: #68a03b; stroke-width: 0px;"/>
+      <polygon points="22.05 19.46 0 20.01 11.6 38.78 32.9 37.69 22.05 19.46" style="fill: #0b8849; stroke-width: 0px;"/>
+    </g>
+  </g>
+  <text transform="translate(84.75 44.68)" style="font-family: MyriadPro-Semibold, 'Myriad Pro'; font-size: 48px; font-weight: 600; fill: white;">Tryon Solutions</text>
+</svg>
