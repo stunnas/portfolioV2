@@ -1,4 +1,4 @@
-<img src="public/preview.png" />
+<img src="public/website.png" />
 
 # Windowed portfolio
 
