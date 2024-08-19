@@ -35,10 +35,10 @@ export function ThemeSwitcher() {
 			onClick={handleToggle}
 		>
 			<Sun
-				className={`m500:h-4 m500:w-4 text-layoutText transition-colors duration-500 h-6 w-6 ${isDarkMode ? 'hidden' : 'inline'}`}
+				className={`h-6 w-6 ${isDarkMode ? 'hidden' : 'inline'} m500:h-4 m500:w-4 text-layoutText transition-colors duration-500 `}
 			/>
 			<Moon
-				className={`m500:h-4 m500:w-4 text-layoutText transition-colors duration-500 h-6 w-6 ${isDarkMode ? 'inline' : 'hidden'}`}
+				className={`h-6 w-6 ${isDarkMode ? 'inline' : 'hidden'} m500:h-4 m500:w-4 text-layoutText transition-colors duration-500`}
 			/>
 			<span className='sr-only'>Toggle theme</span>
 		</button>
