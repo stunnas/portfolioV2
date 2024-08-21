@@ -98,7 +98,7 @@ export default function Home() {
 					</div>
 				))}
 			</Marquee>
-			<div>
+			<div className='w-full'>
 				<div className='max-w-min'>
 					<HyperText
 						className=''
@@ -106,16 +106,16 @@ export default function Home() {
 						text='Skills'
 					/>
 				</div>
-
-				<AnimatedGradientText className='relative flex items-center justify-center overflow-hidden rounded-full bg-background'>
-					<div className=' '>
-						<IconCloud
-							iconSlugs={slugs}
-							className='w-full scale-90'
-						/>
-					</div>
-				</AnimatedGradientText>
 			</div>
+
+			<AnimatedGradientText className='relative flex items-center justify-center overflow-hidden rounded-full bg-background'>
+				<div className=' '>
+					<IconCloud
+						iconSlugs={slugs}
+						className='w-full scale-90'
+					/>
+				</div>
+			</AnimatedGradientText>
 
 			<Separator />
 
