@@ -9,14 +9,17 @@ import {
 export const links: { icon: IconType; text?: string; href: string }[] = [
 	{
 		icon: SiGmail,
+		text: 'Email',
 		href: 'mailto:caa.develops@gmail.com',
 	},
 	{
 		icon: SiGithub,
+		text: 'Github',
 		href: 'https://github.com/stunnas',
 	},
 	{
 		icon: SiLinkedin,
+		text: 'Linkedin',
 		href: 'https://www.linkedin.com/in/calbritton/',
 	},
 	{

@@ -1,4 +1,3 @@
-// tailwind.config.ts
 import type { Config } from 'tailwindcss';
 import flattenColorPalette from 'tailwindcss/lib/util/flattenColorPalette';
 
@@ -91,9 +90,6 @@ const config: Config = {
 			},
 		},
 		screens: {
-			smallHeight: { raw: '(max-height: 550px)' },
-			w900: { max: '900px' },
-			w800: { max: '800px' },
 			w700: { max: '700px' },
 			w600: { max: '600px' },
 			w500: { max: '500px' },

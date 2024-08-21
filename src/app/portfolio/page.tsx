@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { getEnhancedProjects, Project } from '@/lib/data/projects';
 import { AspectRatio } from '@/components/neobrutalism-ui/aspect-ratio';
 import { useProjectFilter } from '@/lib/context/project-filter-context';
+import { brutalismContainer } from '@/components/ui/brutalism-container';
 
 export default function PortfolioPage() {
 	const [projects, setProjects] = useState<Project[]>([]);
@@ -113,7 +114,7 @@ export default function PortfolioPage() {
 
 							<div className='mt-8 grid grid-cols-2 gap-5 text-base w400:text-sm'>
 								<a
-									className='bg-main text-layoutText border-border dark:border-darkBorder shadow-light dark:shadow-dark cursor-pointer rounded-base border-2 px-4 py-2 text-center uppercase transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none'
+									className={brutalismContainer}
 									href={project.liveLink}
 									target='_blank'
 								>
@@ -121,7 +122,7 @@ export default function PortfolioPage() {
 								</a>
 								{project.repoUrl && (
 									<a
-										className='bg-main text-layoutText border-border dark:border-darkBorder shadow-light dark:shadow-dark cursor-pointer rounded-base border-2 px-4 py-2 text-center uppercase transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:hover:shadow-none'
+										className={brutalismContainer}
 										href={project.repoUrl}
 										target='_blank'
 									>
