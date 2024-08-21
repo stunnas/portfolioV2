@@ -35,6 +35,7 @@ To update the marquee, icon tag cloud, home links, or porfolio projects go to th
 - Custom theme handler (not next/theme library)
 - Custom color pallette for UI (not limited to colors, gradients, and even images)
 - Filtering through projects with sorting additions
+- Automatically getting repository dates from github api
 - Animated backgrounds and transitions
 
 
