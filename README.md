@@ -26,10 +26,15 @@ bun run dev
 - Inside `page.tsx` update the content
 - Update the `favicon.ico`
 
-### Content config
-
 #### Swappable Data
 
 To update the marquee, icon tag cloud, home links, or porfolio projects go to the `src/lib/data` folder. 
+
+#### Key Feature Additions
+
+- Custom theme handler (not next/theme library)
+- Custom color pallette for UI (not limited to colors, gradients, and even images)
+- Filtering through projects with sorting additions
+- Animated backgrounds and transitions
 
 
